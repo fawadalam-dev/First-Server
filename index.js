@@ -11,5 +11,5 @@ app.get('/weather', (req, res) => {
     res.send('Yes today is 30 degree');
 });
 app.listen(8000, () => {
-    console.log('Server is Running');
+   console.log('Server is Running');
 });
